@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         let city = cityArea.text ?? ""
         
         if city.isEmpty {
-            let alert = UIAlertController(title: "Uyari", message: "Sehir adini giriniz", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Warning", message: "Sehir adini giriniz", preferredStyle: .alert)
             let cancelBtn = UIAlertAction(title: "Cancel", style: .cancel,handler: nil)
             alert.addAction(cancelBtn)
             self.present(alert,animated: true,completion: nil)

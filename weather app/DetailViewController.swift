@@ -24,8 +24,8 @@ class DetailViewController: UIViewController {
     
     
     func getTodayWeatherResult(c:String){
-        //93406ea9dee5c1041592dccc02cf0d8f
-        if let url =  URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(c)&appid=93406ea9dee5c1041592dccc02cf0d8f"){
+        //
+        if let url =  URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(c)&appid=93406ea9dee5c000000000000008f"){
             let request = URLRequest(url:url)
             let task =  URLSession.shared.dataTask(with: request){(data,response,error) in
                 
